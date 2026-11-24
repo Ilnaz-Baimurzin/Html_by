@@ -1,0 +1,10 @@
+#text1:focus{
+  border-style: inset;
+  border-color: red; 
+  box-shadow: 0 0 2px 1px red;
+  outline: none;
+}
+#text2:focus{
+  outline: 1px solid red;
+  box-shadow: 1px red;
+}
