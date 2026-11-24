@@ -1,0 +1,33 @@
+
+#parent {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ItFyn4bJ69u2LZ3aWLXS8AMgkWZ9EtxbbhOdhxqQLbvdX6WJIv06asU&s=10);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	padding: 30px;
+}
+#elem {
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	
+	border: 20px solid red;
+	background: black;
+	color: red;
+	
+	opacity: 0.5;
+
+}
+#elem1 {
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 20px solid red;
+	color: red;
+    background: rgba(black 0.5)
+}
