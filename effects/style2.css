@@ -1,0 +1,90 @@
+@keyframes move {
+    form{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 400PX;
+    }
+}
+@keyframes move1 {
+    form{
+        background-color: white;
+    }
+    to{
+        background-color: red;
+    }
+}
+
+#elem{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+#elem1{
+    animation-name: move1;
+    animation-duration: 4s;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    animation-iteration-count: infinite;
+}
+
+
+#elem2 {
+    width: 50px;
+    height: 50px;
+    background-color: #e54646;
+    animation-iteration-count: infinite;
+    animation-name: move3;
+    animation-duration: 2s;
+    animation-timing-function: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move2 {
+  0% {
+    transform: translate(0, 0);
+    background-color: #ffffff;
+  }
+  25% {
+    transform: translate(200px, 0);
+    background-color: #e54646;
+  }
+  50% {
+    transform: translate(200px, 200px);
+    background-color: #ffffff;
+  }
+  75% {
+    transform: translate(0, 200px);
+    background-color: #e54646;
+  }
+    100% {
+    transform: translate(0, 0);
+    background-color: #ffffff;
+  }
+}
+@keyframes move3 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(400px);
+    }
+}
+#elem3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: #ffffff;
+    animation-iteration-count: infinite;
+    animation-name: move2;
+    animation-duration: 5s;
+    animation-timing-function: 5s;
+    animation-iteration-count: infinite;
+}
+

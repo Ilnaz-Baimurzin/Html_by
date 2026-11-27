@@ -1,0 +1,95 @@
+#elem{
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition-property: all, color;
+    transition-duration: 2s;
+}
+#elem:hover{
+    background-color: red;
+}
+#elem1{
+    color: red;
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition-property: all, color;
+    transition-duration: 2s;
+}
+#elem1:hover{
+    background-color: red;
+    color: white;
+}
+#elem2{
+    color: red;
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#elem2:hover{
+    width: 400px;
+
+}
+#elem3{
+
+    color: red;
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#elem3:hover{
+    width:250px ;
+    margin-left:50px;
+
+}
+#elem4{
+    color: red;
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay:  2s;
+}
+#elem4:hover{
+    width:250px ;
+
+}
+#elem5{
+    color: red;
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition-timing-function: cubic-bezier(0.87, -0.93, 0, 1.1 );
+    transition-duration: 2s;
+    transition-property: all;
+}
+#elem5:hover{
+    width: 400px;
+}
+#elem6{
+    transition-property:width, border, color;
+    transition-duration: 2s;
+    width: 300px;
+    height: 10px;
+}
+#elem6:hover{
+    width: 500px;
+    color: blue;
+    border:1px solid blue;
+}
+#elem7{
+    transition-property:width, box-shadows, color;
+    transition-duration: 2s;
+    width: 300px;
+    height: 10px;
+}
+#elem7:hover{
+    width: 500px;
+    color: blue;
+    box-shadow: 0 0 5px blue;
+}
