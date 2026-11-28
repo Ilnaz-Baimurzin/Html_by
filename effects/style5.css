@@ -1,0 +1,121 @@
+#elem{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+}
+#elem:hover{
+    transform-origin:100% 100%;
+    transform: rotate(50deg);
+}
+#elem1{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s linear;
+}
+#elem1:hover{
+    transform-origin:left ;
+    transform: rotate(50deg);
+}
+#elem2{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s linear;
+}
+#elem2:hover{
+    transform-origin:center center ;
+    transform: rotate(50deg);
+}
+#elem3{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s linear;
+}
+#elem3:hover{
+	transform-origin: 0% 0% 0% 100%;
+	transform: rotate(30deg);
+}
+#elem4{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+}
+#elem4:hover{
+	transform-origin: right bottom;
+	transform: scale(2);
+}
+#elem5{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+}
+#elem5:hover{
+	transform-origin: right top;
+	transform: scale(2);
+}
+#elem6{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+}
+#elem6:hover{
+	transform-origin: right top;
+	transform: skew(50deg);
+}
+#elem7{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+}
+#elem7:hover{
+	transform-origin: left bottom;
+	transform: skew(50deg);
+}
+#block{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #cbd5e1;
+    border-radius: 50%;
+    animation: move 6s linear infinite;
+}
+
+#elem8 {
+  width: 28px;
+  height: 28px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  animation: move2 6s linear infinite;
+  border: 1px solid red;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes move2 {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: white;
+  }
+  100%{
+    background-color: red;
+  }
+}
