@@ -1,0 +1,11 @@
+.parent {
+	display: flex;
+	flex-direction: column; /* ось горизонтальна */
+	width: 100px;
+	height: 300px;
+	border: 1px solid red;
+}
+.child {
+	flex-basis: 50px;   /* размер элемента */
+	border: 1px solid green;
+}
