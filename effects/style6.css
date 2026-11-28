@@ -1,0 +1,90 @@
+.menu {
+      display: flex;
+      gap: 6px; 
+}
+.menu a {
+    background-color: white;
+    position: relative;   
+    display: inline-block;
+    padding: 15px 25px;
+    border: 1px solid;
+    text-decoration: none;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    transition: transform 0.2s linear;
+    transform: skew(-15deg);
+}
+.menu a:hover {
+      z-index: 10;                             
+      transform: skew(-15deg) scale(1.15);   
+}
+.menu1 {
+      display: flex;
+      gap:1px; 
+}
+.menu1 a {
+    background-color: white;
+    position: relative;   
+    display: inline-block;
+    padding: 15px 25px;
+    border: 1px solid;
+    text-decoration: none;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    transition: transform 100ms linear;
+}
+.menu1 a:hover {
+      z-index: 10; 
+      transform: rotate(10deg);                             
+}
+#text1{
+    transform: rotate(9deg);
+    position: relative;
+    z-index: 1;
+}
+.menu2 {
+  display: flex;
+  gap: 8px;
+  transform: rotate(-5deg);
+}
+.menu2 a {
+    background-color: white;
+    position: relative;   
+    display: inline-block;
+    padding: 15px 25px;
+    border: 1px solid;
+    text-decoration: none;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    transition: transform 0.2s linear;
+}
+.menu2 a:hover {
+      z-index: 10;                             
+      transform: skew(-15deg) scale(1.15);   
+}
+#elem1{
+    margin: 0 auto;
+    width: 300px;
+    height: 190px;
+    position: relative;
+}
+#elem3{
+    background-color: white;
+    position: relative;   
+    display: inline-block;
+    padding: 15px 25px;
+    border: 1px solid;
+    text-decoration: none;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    position: absolute;
+    top: 150px;
+    right: -400px;
+    transform: rotate(90deg);
+}
+#elem2{
+    margin: 0 auto;
+    width: 300px;
+    height: 190px;
+    transform: skew(5deg);
+}
